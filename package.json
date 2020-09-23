@@ -1,0 +1,37 @@
+{
+  "name": "net-proxy",
+  "version": "1.0.0",
+  "description": "A simple net http https forwarding proxy! Like smartProxy and vpn's! You can use it with your browser or your system to go out! So if set in an external server! You can change your IP using it!",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "prepare": "npm run build",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glitnirian/node-net-proxy.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7",
+    "jest": "^26.2.2",
+    "node-fetch": "^2.6.1",
+    "proxy-http-agent": "^1.0.0",
+    "ts-jest": "^26.1.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "author": "Glitnir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glitnirian/node-net-proxy/issues"
+  },
+  "homepage": "https://github.com/Glitnirian/node-net-proxy#readme"
+}

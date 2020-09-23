@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "declarationDir": "./dist",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "lib": ["ESNext", "DOM"],
+      "outDir": "./dist",
+      "target": "es5",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "esModuleInterop": true
+    },
+    "typedocOptions": {
+      "mode": "modules",
+      "out": "docs"
+    },
+    "include": ["src/index.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
